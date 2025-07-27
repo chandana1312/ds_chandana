@@ -1,8 +1,17 @@
-# Trader Behavior vs. Market Sentiment
+# Trader Behavior vs Market Sentiment Analysis
 
-This project analyzes the relationship between trader behavior and overall market sentiment (Fear/Greed) using historical data and sentiment indexes.
+This project analyzes the relationship between trader behavior and market sentiment (Fear vs Greed) using real trading data from Hyperliquid and sentiment data from the Bitcoin Fear & Greed Index.
 
-## 📁 Folder Structure
+---
+
+## 🔗 Important Links
+
+- 📔 Google Colab Notebook: [Open notebook_1.ipynb](https://colab.research.google.com/drive/1UV9B7UiX6HvRn7DqV-x7SOBJNDhnYCoO?usp=sharing)
+- 📁 GitHub Repository: [ds_chandana](https://github.com/chandana1312/ds_chandana)
+
+---
+
+## 📂 Folder Structure
 
 ```
 ds_chandana/
@@ -18,20 +27,37 @@ ds_chandana/
 └── README.md
 ```
 
-## 🧪 Objective
 
-To understand how trading behavior (PnL, size, leverage) shifts during different market sentiments and extract actionable insights.
+## 📊 Overview
 
-## 📊 Visuals
+- **Datasets Used**:
+  - 🔹 [Bitcoin Fear & Greed Index](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
+  - 🔹 [Hyperliquid Trader Data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
 
-EDA charts highlight the impact of sentiment on:
-- Average Profitability
-- Trade Volume
-- Execution Price Trends
+- **Main Objective**:
+  Analyze how trading behavior (PnL, leverage, volume) aligns or diverges from market sentiment patterns.
 
-## ✅ Deliverables
+---
 
-- Google Colab code (notebook_1.ipynb)
-- Cleaned datasets (csv_files/)
-- Visual outputs (outputs/)
-- Final report (ds_report.pdf)
+## 📌 Insights
+
+- Traders tend to take **larger risks during Greed** phases.
+- **PnL tends to drop** during extreme sentiment transitions (fear → greed).
+- Hidden behavior patterns were detected via date-wise aggregations.
+
+---
+
+## ⚙️ Requirements
+
+- Google Colab (no local setup needed)
+- Python 3.11+
+- Libraries: `pandas`, `matplotlib`, `seaborn`
+
+---
+
+## 📬 Submission Format
+
+This repository follows the required structure for the assignment as mentioned by the Web3 Trading Team.
+
+---
+
